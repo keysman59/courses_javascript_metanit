@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+<script type="text/javascript">
+
+// Методы объекта определение в объекте (2):
+
+var user = {
+	name: "Tom",
+	age: 26,
+	display() {
+		console.log(this.name, this.age);
+	},
+
+	move(place) {
+		console.log(this.name, "goes to", place);
+	}
+};
+
+user.display(); // Tom 26
+user.move("the shop"); // Tom goes to the shop
+
+
+
+
+
+
+
+	
+</script>
+
+
+
+
+</body>
+</html>

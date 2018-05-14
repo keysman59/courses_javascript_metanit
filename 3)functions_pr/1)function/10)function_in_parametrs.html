@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>javascript</title>
+</head>
+<body>
+
+      
+<script type="text/javascript">
+
+function sum(x,y) {
+	return x + y;
+}
+
+function substract (x, y) {
+	return x - y;
+}
+
+function operation (x, y, func) {
+	var result = func(x, y);
+	console.log(result);
+}
+
+console.log("Sum");
+operation(10, 6, sum); // 16
+
+console.log("Substract");
+operation(10, 6, substract); // 4
+
+
+
+</script>
+
+</body>
+</html>

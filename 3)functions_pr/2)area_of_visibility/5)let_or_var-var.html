@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+<script>
+
+function displaySquare(){
+  
+    var z = 20;
+     
+    {
+        var z = 30; // Ошибка ! Переменная z уже определена
+        console.log("Block:", z);
+    }
+    console.log("Function:", z);
+}
+
+displaySquare();
+
+
+</script>
+</body>
+</html>
